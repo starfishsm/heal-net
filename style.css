@@ -114,13 +114,13 @@ li {
     justify-content: space-between;
     align-items: end;
     position: relative;
-    z-index: 1;    
-}
+  }
 
 .decorative-vector{
     position: absolute;
-    bottom: 0px;
-    left: 20px;
+    max-width: 140px;
+    bottom: -115px;
+    left: -90px;
     z-index: -1;
 }
 
@@ -247,10 +247,10 @@ li {
 .gtku-section{
     max-width: 1166px;
     justify-content: center;
+    margin-top: 128px;
 }
 
 .gtku-section h2{
-    margin-top: 184px;
     text-align: center;
     font-size: 32px;
 }
@@ -258,7 +258,7 @@ li {
 .gtku-section-layout{
     display: flex;    
     gap: 56px;
-    margin-top: 44px;
+    margin-top: 30px;
 }
 
 .gtku-section-layout img{
@@ -270,6 +270,7 @@ li {
     font-weight: 500;
     line-height: 24px;
     max-width: 534px;
+    color: #6D6D6D;
 }
 
 .gtku-section-layout button{
@@ -283,6 +284,78 @@ li {
     margin-top: 28px;
 }
 
+.hopw-section{
+    margin-top: 128px;
+}
+
+.hopw-section header{
+    /* text-align: center; */
+}
+
+.hopw-section header h2{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.hopw-section header p{
+    font-size: 16px;
+    color: #B0B0B0;
+    max-width: 766px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hopw-layout {
+    display: flex;
+    justify-content: center;
+    max-width: 1005px;
+    margin: 0 auto 0 auto;
+}
+
+.hopw-layout h3{
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 40px;
+    color: #3D3D3D;
+    margin-bottom: 10px;
+}
+
+.hopw-layout p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #6D6D6D;
+    font-weight: 550;
+    max-width: 340px;
+}
+
+.hopw-text{
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+    margin-right: 112px;
+    margin-top: 58px;
+}
+
+.numbers-img{
+    margin-right: 20px;
+    margin-top: 52px;
+}
+
+.doc-icons-img{
+    max-width: 455px;
+    margin-top: 64px;
+    
+}
+
+
+
+
+
+
+
+
+
 .testimonials-section{
     margin-top: 128px;
 }
@@ -291,13 +364,76 @@ li {
     text-align: center;    
 }
 
-.testimonials-section h2{
-    font-size: 40;
+.testimonials-section header h2{
+    font-size: 40px;
     margin-bottom: 32px;
 }
 
-.testimonials-section p{
+.testimonials-section header p{
     font-size: 16px;
     color: #B0B0B0;
+    margin-bottom: 52px;
 
+}
+
+.testimonial-item {
+    background: linear-gradient(to right bottom, #4ec7ff11, #FFFF);
+    padding: 28px 40px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row!important;
+    gap: 20px;
+}
+
+.testimonial-item img {
+    object-fit: contain;
+}
+
+.testimonial-item p {
+    color: #5D5D5D;
+    font-size: 16px;
+}
+
+.testimonial-first-row {
+    display: flex;
+    gap: 80px;
+}
+
+.testimonial-second-row-item {
+    text-align: center;
+}
+
+.testimonial-second-row-item h2 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.testimonial-second-row-item {
+    color: #5D5D5D;
+}
+
+.testimonial-second-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    gap: 48px;
+}
+
+.testimonial-container{
+    position: relative;
+}
+
+.testimonial-vector-1 {
+    position: absolute;
+    top: -50px;
+    left: -50px;
+    z-index: -1;
+}
+
+.testimonial-vector-2 {
+    position: absolute;
+    bottom: -50px;
+    right: -50px;
+    z-index: -1;
 }
